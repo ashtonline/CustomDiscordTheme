@@ -13,9 +13,9 @@
  @import url(https://raw.githubusercontent.com/ashtonline/CustomDiscordTheme/main/Material-Discord/css/source.css);
 
  :root {
-     --accent-hue: 274;
+     --accent-hue: 275;
      --accent-saturation: 78%;
-     --accent-lightness: 30%;
+     --accent-lightness: 35%;
      --accent-text-color: #fff;
      --accent-button-action: #fff; /*	-	*/
  
