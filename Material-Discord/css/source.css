@@ -135,7 +135,7 @@
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
-  --server-folder-color: rgba(255,255,255,0.085);
+  --server-folder-color: rgba(255, 255, 255, 0.048);
   --status-picker-color: #2c2d31;
   --sidebar-panel-color: #212226;
   --chat-color: var(--main-color);
@@ -150,8 +150,8 @@
   --separator-color: rgba(255,255,255,0.125);
   --header-secondary: #eaeaea;
   --profile-body-background-color: #222326;
-  --input-color: hsl(279,74%,3%);
-  --input-color-alt: hsl(279,74%,6%);
+  --input-color: hsl(279,74%,8%);
+  --input-color-alt: hsl(279,74%,12%);
   --input-border-color: hsl(0,0%,29%);
   --input-text-color: hsl(0,0%,85%);
   --input-placeholder-color: hsl(0,0%,59%);
@@ -169,7 +169,7 @@
   --card-color-active: hsl(279, 74%,25%);
   --card-color-alt: hsl(279, 74%,18%);
   --card-color-alt-hover: hsl(279, 74%,21%);
-  --card-border-color: hsl(279,71%,45%);
+  --card-border-color: hsl(279,71%,35%);
   --card-header-text-color: #eee;
   --card-button-color: rgba(255,255,255,0.09);
   --card-button-color-hover: rgba(255,255,255,0.135);
