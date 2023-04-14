@@ -66,11 +66,9 @@
 }
 
 .theme-dark {
-  /**--main-color: #16171a;
+  /**
+  --main-color: #16171a;
   --main-alt: #0f1012;
-  */
-  --main-color: #1c0529;
-  --main-alt: #0d0412;
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
@@ -83,6 +81,69 @@
   --message-color-alt: hsl(216,7%,13%);
   --attachment-color: hsl(216,7%,9%);
   --typing-color: rgba(22,23,26,0.9);
+  --popout-color: #2c2f33;
+  --popout-color-alt: #202225;
+  --popout-header-border: rgba(255,255,255,0.125);
+  --separator-color: rgba(255,255,255,0.125);
+  --header-secondary: #eaeaea;
+  --profile-body-background-color: #222326;
+  --input-color: hsl(240,4%,16%);
+  --input-color-alt: hsl(240,2%,22%);
+  --input-border-color: hsl(0,0%,29%);
+  --input-text-color: hsl(0,0%,85%);
+  --input-placeholder-color: hsl(0,0%,59%);
+  --input-pill-color: hsla(0,0%,100%,0.125);
+  --tab-border-color: #fff;
+  --interactive-muted: #676767;
+  --text-disabled: #666;
+  --menu-item-hover: rgba(255,255,255,0.075);
+  --menu-item-select: rgba(255,255,255,0.1);
+  --menu-item-select-accent-opacity: 0.3;
+  --menu-item-text-color: #aaa;
+  --card-color-outlined: transparent;
+  --card-color-filled: hsl(225,6%,13%);
+  --card-color-hover: hsl(225,6%,16%);
+  --card-color-active: hsl(225,6%,25%);
+  --card-color-alt: hsl(225,6%,18%);
+  --card-color-alt-hover: hsl(225,6%,21%);
+  --card-border-color: hsl(220,3%,26%);
+  --card-header-text-color: #eee;
+  --card-button-color: rgba(255,255,255,0.09);
+  --card-button-color-hover: rgba(255,255,255,0.135);
+  --activity-card-color: rgba(255,255,255,0.0475);
+  --activity-card-color--hover: rgba(255,255,255,0.06);
+  --activity-card-color--active: rgba(255,255,255,0.07);
+  --activity-card-color--inset: rgba(255,255,255,0.05);
+  --button-link-color: 0,0%,100%;
+  --button-link-text-color: #fff;
+  --button-border-color: #444;
+  --switch-knob-color: hsl(0,0%,47%);
+  --switch-knob-color-modal: hsl(0,0%,56%);
+  --switch-slider-color: hsl(240,1%,20%);
+  --switch-slider-color-modal: var(--switch-slider-color);
+  --switch-color-modifier: 1.3;
+  --switch-color-checked: hsla(var(--accent-hsl),0.3);
+  --md-ripple-color: 0,100%,100%;
+  --emoji-category-header: rgba(44,47,51,0.95);
+  --scrollbar-color: 255,255,255;
+  --window-button: rgba(255,255,255,0.1);
+  --window-button-inactive: rgba(255,255,255,0.05);
+  --text-brand: hsl(var(--accent-hsl));
+  --text-link: hsl(var(--accent-hsl)); */
+  --main-color: #1c0529;
+  --main-alt: #0d0412;
+  --accent-hsl--material-you: var(--accent-hsl);
+  --accent-text-color--material-you: var(--accent-text-color);
+  --server-color: transparent;
+  --server-folder-color: rgba(255,255,255,0.085);
+  --status-picker-color: #2f2c31;
+  --sidebar-panel-color: #262125;
+  --chat-color: var(--main-color);
+  --message-color: hsl(300, 7%, 14%);
+  --message-color-hover: hsl(300, 7%, 18%);
+  --message-color-alt: hsl(300, 6%, 13%);
+  --attachment-color: hsl(216,7%,9%);
+  --typing-color: rgba(25, 22, 26, 0.9);
   --popout-color: #2c2f33;
   --popout-color-alt: #202225;
   --popout-header-border: rgba(255,255,255,0.125);
