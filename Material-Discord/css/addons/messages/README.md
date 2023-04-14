@@ -6,7 +6,7 @@
 Download with the button above or use as import with the code below.
 
 ```css
-@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/messages/source.css);
+@import url(https://github.com/ashtonline/CustomDiscordTheme/tree/main/Material-Discord/css/addons/messages/source.css);
 ```
 
 [paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
