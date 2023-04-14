@@ -328,17 +328,17 @@
   --text-brand: hsl(var(--accent-hsl));
   --text-link: hsl(var(--accent-hsl)); 
   */ 
-  --main-color: hsl(280, 60%, 88%);
+  --main-color: hsl(280,40%,98%);
   --main-alt: hsl(280, 70%, 75%);
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
-  --server-folder-color: rgba(0, 0, 0, 0.041);
+  --server-folder-color: rgba(0, 0, 0, 0.062);
   --status-picker-color: hsl(280, 70%, 75%);
   --sidebar-panel-color: hsl(280, 90%, 85%);
   --chat-color: var(--main-color);
-  --message-color: hsl(280,40%,98%);
-  --message-color-hover: hsl(280,40%,90%);
+  --message-color: hsl(280, 40%, 90%);
+  --message-color-hover: hsl(280,40%,85%);
   --message-color-alt: hsl(280,40%,80%);
   --attachment-color: hsl(280,40%,75%);
   --main-textarea-color-alt: hsl(280,70%,98%);
