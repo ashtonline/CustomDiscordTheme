@@ -130,8 +130,8 @@
   --window-button-inactive: rgba(255,255,255,0.05);
   --text-brand: hsl(var(--accent-hsl));
   --text-link: hsl(var(--accent-hsl)); */
-  --main-color: #16171a;
-  --main-alt: #0f1012;
+  --main-color: #1c0529;
+  --main-alt: #0e0314;
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
