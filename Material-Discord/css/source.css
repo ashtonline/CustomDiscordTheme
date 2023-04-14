@@ -379,7 +379,7 @@
   --button-link-color: 280,70%,0%;
   --button-link-text-color: hsl(280, 70%, 20%);
   --button-border-color: hsl(280, 70%, 80%);
-  --switch-knob-color: hsl(280,70%,49%);
+  --switch-knob-color: hsl(280,90%,70%);
   --switch-slider-color: hsl(280,70%,81%);
   --switch-slider-color-modal: var(--switch-slider-color);
   --switch-color-modifier: 1.8;
