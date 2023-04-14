@@ -196,8 +196,8 @@
 }
 
 .theme-light {
-  --main-color: #f9f9f9;
-  --main-alt: #e8e8e8;
+  --main-color: #bf00ff;
+  --main-alt: #ac00e6;
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
