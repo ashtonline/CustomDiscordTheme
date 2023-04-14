@@ -136,8 +136,8 @@
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
   --server-folder-color: rgba(255, 255, 255, 0.048);
-  --status-picker-color: #2c2d31;
-  --sidebar-panel-color: #212226;
+  --status-picker-color: #13041b;
+  --sidebar-panel-color: #13041b;
   --chat-color: var(--main-color);
   --message-color: hsl(280, 70%,14%);
   --message-color-hover: hsl(280, 70%,18%);
@@ -151,7 +151,7 @@
   --header-secondary: #eaeaea;
   --profile-body-background-color: #222326;
   --input-color: hsl(279,74%,4%);
-  --input-color-alt: hsl(279,74%,8%);
+  --input-color-alt: hsl(279,74%,6%);
   --input-border-color: hsl(0,0%,29%);
   --input-text-color: hsl(0,0%,85%);
   --input-placeholder-color: hsl(0,0%,59%);
