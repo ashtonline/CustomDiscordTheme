@@ -205,12 +205,12 @@
   --status-picker-color: #dee0e0;
   --sidebar-panel-color: #ebeced;
   --chat-color: var(--main-color);
-  --message-color: hsl(210,4%,90%);
-  --message-color-hover: hsl(210,4%,86%);
-  --message-color-alt: hsl(210,4%,84%);
-  --attachment-color: hsl(210,4%,79%);
+  --message-color: hsl(285,100%,45%);
+  --message-color-hover: hsl(285,100%,55%);
+  --message-color-alt: hsl(285,100%,60%);
+  --attachment-color: hsl(285,100%,40%);
   --main-textarea-color-alt: hsl(0,0%,98%);
-  --typing-color: hsla(0,0%,97.6%,0.9);
+  --typing-color: hsla(285,100%,50%,0.9);
   --popout-color: #fff;
   --popout-color-alt: #e5e5e5;
   --popout-header-border: #ccc;
