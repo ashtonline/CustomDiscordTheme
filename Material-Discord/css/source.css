@@ -150,8 +150,8 @@
   --separator-color: rgba(255,255,255,0.125);
   --header-secondary: #eaeaea;
   --profile-body-background-color: #222326;
-  --input-color: hsl(279,74%,8%);
-  --input-color-alt: hsl(279,74%,12%);
+  --input-color: hsl(279,74%,6%);
+  --input-color-alt: hsl(279,74%,9%);
   --input-border-color: hsl(0,0%,29%);
   --input-text-color: hsl(0,0%,85%);
   --input-placeholder-color: hsl(0,0%,59%);
