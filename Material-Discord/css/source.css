@@ -197,8 +197,8 @@
   --text-link: hsl(var(--accent-hsl));
   */
 
-  --main-color: #360052;
-  --main-alt: #220033;
+  --main-color: #29003d;
+  --main-alt: rgb(20, 0, 31);
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
