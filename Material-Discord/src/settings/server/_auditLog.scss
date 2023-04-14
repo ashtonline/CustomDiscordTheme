@@ -1,0 +1,102 @@
+@use '../../mixins' as *;
+
+/*
+ *
+ *  SERVER AUDIT LOG
+ *
+ */
+
+%auditLog {
+	margin: 0;
+	@include card-format--list;
+	border: none;
+
+	%auditLogHeader {
+		position: relative;
+		padding: 12px 16px;
+		background-color: var(--card-color-filled);
+	}
+
+	%auditLogDivider {
+		display: none;
+	}
+
+	%auditLogChangeDetails {
+		padding: 4px 16px 16px 8px;
+		background-color: var(--card-color-filled) !important;
+	}
+
+	%auditLogDetail {
+		margin-top: 0;
+		padding: 4px 16px;
+		background-color: var(--card-color-alt);
+
+		&:first-of-type {
+			padding-top: 8px;
+			border-radius: var(--card-radius-big) var(--card-radius-big) 0 0;
+		}
+
+		&:last-of-type {
+			padding-bottom: 8px;
+			border-radius: 0 0 var(--card-radius-big) var(--card-radius-big);
+		}
+
+		&:only-child {
+			padding: 8px 16px;
+			border-radius: var(--card-radius-big);
+		}
+	}
+
+	&:first-of-type {
+		%auditLogHeader {
+			border-radius: var(--card-radius-big) var(--card-radius-big) 0 0;
+		}
+	}
+
+	&:last-of-type {
+		%auditLogHeader {
+			border-radius: 0 0 var(--card-radius-big) var(--card-radius-big);
+
+			&%auditLogHeaderExpanded {
+				border-radius: 0;
+				border-bottom: none;
+			}
+		}
+
+		%auditLogChangeDetails {
+			&:last-of-type {
+				border-radius: 0 0 var(--card-radius-big) var(--card-radius-big);
+			}
+		}
+	}
+}
+
+%auditLogIcon {
+	&:after {
+		width: 9px;
+		height: 9px;
+		top: unset;
+		left: unset;
+		right: 2px;
+		bottom: 2px;
+		border-radius: 50%;
+	}
+
+	&%auditLogTypeCreate {
+		&:after {
+			background: #389c59;
+		}
+	}
+
+	&%auditLogTypeUpdate {
+		&:after {
+			background: #ec9d1a;
+		}
+	}
+
+	&%auditLogTypeDelete {
+		&:after {
+			background: #9d3235;
+		}
+	}
+}

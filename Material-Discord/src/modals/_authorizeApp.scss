@@ -1,0 +1,74 @@
+@use '../mixins' as *;
+
+/*
+ *
+ *	AUTHORIZE APP
+ *
+ */
+
+%oauth2Wrapper {
+	@include popout-format;
+
+	%authorizeWrapper {
+		background-color: transparent;
+
+		%authorizeScrollContent {
+			padding: 0 !important;
+
+			div:last-child {
+				padding-bottom: 0;
+			}
+
+			%authorizeHeader {
+				padding: 24px 24px 16px;
+				border-radius: 0;
+			}
+
+			%authorizeHeader,
+			%authorizeScopes {
+				border-bottom: 1px solid var(--popout-header-border);
+			}
+
+			%authorizeScopes,
+			%authorizeSelectorGroup,
+			%authorizeApplicationDetails {
+				padding: 16px 24px;
+			}
+
+			%authorizeApplicationEntry {
+				margin-top: 0;
+				margin-bottom: 8px;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			%authorizeGroupLabel {
+				@include remove-caps(14px);
+			}
+		}
+	}
+}
+
+%authorizeDiscordConsentBody {
+	margin: 0;
+	padding: 0 calc(24px - var(--scrollbar-thin-width)) 0 24px;
+}
+
+%authorizeScopes,
+%authorizeApplicationDetails {
+	padding: 16px 0;
+}
+
+%authorizeApplicationDetails {
+	&:last-child {
+		padding-bottom: 0;
+	}
+}
+
+%authorizeFooter {
+	margin-top: 0;
+	padding: 24px;
+	background-color: transparent;
+}

@@ -1,0 +1,70 @@
+@use '../../mixins' as *;
+
+/*
+ *
+ *  SERVER EMOJI
+ *
+ */
+
+%emojiRow {
+	padding: 0 16px;
+	box-shadow: none !important;
+	@include card-format--list;
+
+	&:before {
+		display: none;
+	}
+
+	&:hover {
+		%emojiAliasPlaceholder {
+			opacity: 0;
+		}
+	}
+
+	%emojiAliasInput {
+		border-bottom: none !important;
+
+		&:before,
+		&:after {
+			display: none;
+		}
+
+		&:focus-within {
+			+ %emojiAliasPlaceholder {
+				opacity: 0;
+			}
+		}
+
+		%emojiInput {
+			padding: 0 8px;
+			font-size: 16px;
+			background-color: var(--input-color);
+			transition: var(--default-time) var(--default-animation) box-shadow;
+		}
+	}
+
+	%emojiAliasPlaceholder {
+		height: auto;
+		margin-left: 8px;
+		padding: 0;
+		line-height: var(--input-height);
+		color: var(--text-normal);
+		transition: var(--default-time) var(--default-animation);
+		overflow: visible;
+	}
+
+	%emojiRemove {
+		right: -12px;
+	}
+}
+
+%emojiTable {
+	margin-bottom: 0;
+	padding: 16px 16px 0;
+	background-color: var(--card-color-filled);
+	border-radius: var(--card-radius-big) var(--card-radius-big) 0 0;
+
+	%formText {
+		@include remove-caps(14px);
+	}
+}

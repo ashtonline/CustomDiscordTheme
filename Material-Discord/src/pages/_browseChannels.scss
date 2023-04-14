@@ -1,0 +1,75 @@
+@use '../mixins' as *;
+
+/*
+ *
+ *  BROWSE CHANNELS
+ *
+ */
+
+%browseChannelsHeader {
+    margin: 0 46px 0 16px;
+    padding: 16px 0;
+}
+
+%browseChannelsScrollerInner {
+    padding: 0 36px 32px 16px;
+}
+
+%browseChannelsChooseContainer {
+    background-color: hsl(var(--accent-hsl--material-you));
+    border-radius: var(--card-radius-big);
+
+    .defaultColor-HXu-5n,
+    .body-2A992B {
+        color: var(--accent-text-color--material-you) !important;
+    }
+}
+
+/*  BROWSE CHANNELS -> CHANNELS */
+
+%browseChannelsCategoryText {
+    @include remove-caps(14px);
+}
+
+%browseChannelsChannelRow {
+    --button-height: 34px;
+
+    background-color: var(--card-color-filled);
+    transition: var(--default-time) var(--default-animation) background-color;
+
+    &%browseChannelsFirstChannel {
+        border-radius: var(--card-radius-big) var(--card-radius-big) 0 0;
+
+        &%browseChannelsLastChannel {
+            border-radius: var(--card-radius-big);
+        }
+    }
+    &%browseChannelsLastChannel {
+        border-radius: 0 0 var(--card-radius-big) var(--card-radius-big);
+    }
+
+    &:not(%browseChannelsChannelDisabled) {
+        &:hover {
+            background-color: var(--card-color-hover);
+        }
+    }
+
+    &:hover {
+        %browseChannelsViewChannelButton {
+            opacity: 1;
+            visibility: visible;
+            transition: var(--default-time) var(--default-animation) opacity;
+        }
+    }
+
+    %browseChannelsViewChannelButton {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--default-time) var(--default-animation) opacity;
+    }
+}
+
+%browseChannelsChannelSeparator {
+    background-color: var(--card-border-color);
+}

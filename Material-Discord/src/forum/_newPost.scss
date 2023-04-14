@@ -1,0 +1,108 @@
+@use '../mixins' as *;
+
+/*
+ *
+ *  FORUM NEW POST
+ *
+ */
+
+%newPostContainer {
+    padding: 6px 12px 8px;
+
+    &%newPostContainerCollapsed {
+        height: auto;
+        padding: 0 6px 0 12px;
+
+        %inputWrapper {
+            margin-right: 8px;
+
+            %input {
+                padding: 0;
+                box-shadow: none !important;
+                cursor: text;
+
+                &,
+                &::-webkit-input-placeholder {
+                    font-weight: 500;
+                }
+            }
+
+            &:before,
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    %newPostContentContainer {
+        padding-left: 0;
+        padding-right: 94px;
+    }
+
+    %newPostFormContainer {
+        position: relative;
+        display: block;
+    }
+
+    %newPostAttachmentContainer {
+        position: absolute;
+        top: 55px;
+        right: 0;
+
+        %newPostAttachmentUploadInput {
+            @include card-format;
+        }
+
+        %newPostAttachmentImageSmall {
+            border-radius: var(--card-radius-big);
+        }
+
+        %newPostAttachmentBadge {
+            background-color: hsl(var(--accent-hsl--material-you));
+            border-width: 4px;
+            border-color: var(--input-color);
+            color: var(--accent-text-color--material-you);
+        }
+    }
+
+    %newPostAttachmentPopoutContainer {
+        %newPostAttachmentPopout {
+            @include popout-format;
+            border: none;
+        }
+
+        %channelTextAreaUpload {
+            padding: 0;
+        }
+    }
+
+    %newPostTextArea {
+        min-height: 70px;
+        margin-top: 16px;
+    }
+
+    %newPostTextAreaInner {
+        min-height: 70px;
+        padding: 6px 12px;
+        background-color: var(--card-color-filled);
+        border-radius: 19px;
+        color: var(--input-text-color);
+
+        &::-webkit-input-placeholder {
+            color: var(--input-placeholder-color);
+        }
+    }
+
+    %newPostTagsContainer {
+        margin-top: 12px;
+    }
+
+    %newPostTagsDivider {
+        width: 100%;
+        left: 0;
+    }
+
+    %newPostControlsContainer {
+        margin-top: 8px;
+    }
+}
