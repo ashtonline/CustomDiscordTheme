@@ -18,6 +18,8 @@
      --accent-lightness: 35%;
      --accent-text-color: #fff;
      --accent-button-action: #fff; /*	-	*/
+     --hue-dark-mode: 280;
+     --hue-light-mode: 280;
  
      --avatar-radius: 50%; /*	-	*/
  
