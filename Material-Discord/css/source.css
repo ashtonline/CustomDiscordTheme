@@ -136,8 +136,8 @@
   --accent-text-color--material-you: var(--accent-text-color);
   --server-color: transparent;
   --server-folder-color: rgba(255, 255, 255, 0.048);
-  --status-picker-color: #13041b;
-  --sidebar-panel-color: #13041b;
+  --status-picker-color: #2c0b3d;
+  --sidebar-panel-color: #2c0b3d;
   --chat-color: var(--main-color);
   --message-color: hsl(280, 70%,14%);
   --message-color-hover: hsl(280, 70%,18%);
