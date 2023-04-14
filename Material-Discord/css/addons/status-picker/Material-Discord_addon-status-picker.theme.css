@@ -10,7 +10,7 @@
  * @invite jzJkA6Z
  */
 
-@import url(https://github.com/ashtonline/CustomDiscordTheme/tree/main/Material-Discord/css/addons/status-picker/source.css);
+@import url(https://raw.githubusercontent.com/ashtonline/CustomDiscordTheme/main/Material-Discord/css/addons/status-picker/source.css);
 
 :root {
   --default-animation: cubic-bezier(0.4,0,0.2,1);

@@ -10,7 +10,7 @@
  * @invite jzJkA6Z
  */
 
- @import url(https://github.com/ashtonline/CustomDiscordTheme/tree/main/Material-Discord/css/addons/messages/source.css);
+ @import url(https://raw.githubusercontent.com/ashtonline/CustomDiscordTheme/main/Material-Discord/css/addons/messages/source.css);
 
 :root {
   --message-radius: 5px;

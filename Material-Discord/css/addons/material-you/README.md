@@ -6,7 +6,7 @@
 Download with the button above or use as an import with the code below.
 
 ```css
-@import url(https://github.com/ashtonline/CustomDiscordTheme/tree/main/Material-Discord/css/addons/material-you/source.css);
+@import url(https://raw.githubusercontent.com/ashtonline/CustomDiscordTheme/main/Material-Discord/css/addons/material-you/source.css);
 ```
 
 <hr>
